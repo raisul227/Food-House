@@ -24,8 +24,14 @@ body{
 .my-3{
     margin-top: 20px;
 }
+.py-3{
+    padding: 20px 0;
+}
 .padding-bottom{
     padding-bottom: 100px;
+}
+.text-center{
+    text-align: center;
 }
 .flex_container{
     display: flex;
@@ -70,4 +76,40 @@ width: 40%;
 }
 .about_text{
     text-align: justify;
+}
+/* Recipies Section  */
+.recipies_heading{
+    font-size: 40px;
+    color: rgb(148, 145, 145);
+}
+.recipies_text{
+    padding: 0 20px;
+}
+
+.box_container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.box{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 4px 6px 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+.box_1,.box_2{
+    margin-right: 30px;
+    
+}
+
+.box img{
+    width: 320px;
+    margin-left: 4px;
+}
+.box_title{
+    font-size: 25px;
+}
+.box_text{
+    font-size: 14px;
+    margin-top: 5px;
 }
